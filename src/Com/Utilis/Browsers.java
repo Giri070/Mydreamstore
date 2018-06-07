@@ -84,6 +84,18 @@ public class Browsers {
 			options.addArguments("disable-infobars"); 
 			driver = new ChromeDriver(options);
 		}
+		else if (browser.equalsIgnoreCase("chrome1"))
+		{
+			System.setProperty("webdriver.chrome.driver","/home/giri/Integration/Mydreamstore/Drivers/chromedriver");
+			ChromeOptions options = new ChromeOptions();
+			// options.addArguments("user-data-dir=C:/Users/user_name/AppData/Local/Google/Chrome/User Data");
+
+		//	options.addArguments("user-data-dir=/home/giri/.config/chromium/Profile 8");
+			options.addArguments("--start-maximized");
+			options.addArguments("--disable-plugins");
+			options.addArguments("disable-infobars"); 
+			driver = new ChromeDriver(options);
+		}
 		else if (browser.equalsIgnoreCase("Mobile"))
 		{
 			/*deviceName = "Google Nexus 6";
