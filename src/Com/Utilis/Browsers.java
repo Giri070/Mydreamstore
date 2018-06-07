@@ -78,7 +78,7 @@ public class Browsers {
 			ChromeOptions options = new ChromeOptions();
 			// options.addArguments("user-data-dir=C:/Users/user_name/AppData/Local/Google/Chrome/User Data");
 
-		//	options.addArguments("user-data-dir=/home/giri/.config/chromium/Profile 8");
+			options.addArguments("user-data-dir=/home/giri/.config/chromium/Profile 8");
 			options.addArguments("--start-maximized");
 			options.addArguments("--disable-plugins");
 			options.addArguments("disable-infobars"); 

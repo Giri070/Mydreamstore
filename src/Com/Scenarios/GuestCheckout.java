@@ -245,7 +245,7 @@ public class GuestCheckout extends TestBase
 	{
 		Browsers b = new Browsers();
 
-		this.driver = b.getBrowsers("chromeprofile");		 
+		this.driver = b.getBrowsers("chrome1");		 
 	}
 
 	@Test(priority=0)
@@ -1163,7 +1163,7 @@ public class GuestCheckout extends TestBase
 	}
 
 
-	@Test(priority=1)
+	//@Test(priority=1)
 	public void GuestCODCheckoutFlow() throws Exception
 	{
 		String name = new Object(){}.getClass().getEnclosingMethod().getName();
