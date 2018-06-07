@@ -59,7 +59,7 @@ public class Browsers {
 		{
 			File file = new File("/home/giri/Testing/Documents/Headless Browser/phantomjs-2.1.1-linux-i686/bin/phantomjs");				
 			System.setProperty("phantomjs.binary.path", file.getAbsolutePath());		
-		//	driver = new PhantomJSDriver();	
+	//		driver = new PhantomJSDriver(null);	
 		}		
 		else if (browser.equalsIgnoreCase("chromeprofile"))
 		{
