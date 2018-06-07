@@ -86,7 +86,16 @@ public class Browsers {
 		}
 		else if (browser.equalsIgnoreCase("chrome1"))
 		{
-			driver = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("user-data-dir=/home/giri/.config/chromium/Profile 8");
+			options.addArguments("--start-maximized");
+			options.addArguments("--disable-plugins");
+			options.addArguments("disable-infobars"); 
+			driver = new ChromeDriver(options);
+			
+			
+			
+			//driver = new ChromeDriver();
 		}
 		else if (browser.equalsIgnoreCase("Mobile"))
 		{
