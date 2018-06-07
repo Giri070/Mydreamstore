@@ -97,6 +97,19 @@ public class Browsers {
 			
 			//driver = new ChromeDriver();
 		}
+		else if (browser.equalsIgnoreCase("chrome2"))
+		{
+			
+			Map<String, Object> prefs = new HashMap<String, Object>();
+			prefs.put("profile.default_content_setting_values.notifications", 2);
+			ChromeOptions options = new ChromeOptions();
+			options.setExperimentalOption("prefs", prefs);
+			driver = new ChromeDriver(options);
+			
+			
+			
+			//driver = new ChromeDriver();
+		}
 		else if (browser.equalsIgnoreCase("Mobile"))
 		{
 			/*deviceName = "Google Nexus 6";
