@@ -86,11 +86,11 @@ public class Browsers {
 		}
 		else if (browser.equalsIgnoreCase("chrome1"))
 		{
+			System.setProperty("webdriver.chrome.driver","/usr/lib/chromium-browser/chromedriver");
+			Map<String, Object> prefs = new HashMap<String, Object>();
+			prefs.put("profile.default_content_setting_values.notifications", 2);
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("user-data-dir=/home/giri/.config/chromium/Profile 8");
-			options.addArguments("--start-maximized");
-			options.addArguments("--disable-plugins");
-			options.addArguments("disable-infobars"); 
+			options.setExperimentalOption("prefs", prefs);
 			driver = new ChromeDriver(options);
 			
 			
@@ -160,7 +160,7 @@ public class Browsers {
 
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-		//driver.manage().window().maximize();	
+		driver.manage().window().maximize();	
 
 		return driver;
 	}
