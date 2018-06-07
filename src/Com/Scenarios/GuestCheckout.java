@@ -245,7 +245,7 @@ public class GuestCheckout extends TestBase
 	{
 		Browsers b = new Browsers();
 
-		this.driver = b.getBrowsers("chrome1");		 
+		this.driver = b.getBrowsers("chrome2");		 
 	}
 
 	@Test(priority=0)
