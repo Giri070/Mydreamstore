@@ -173,7 +173,7 @@ public class Browsers {
 
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-		driver.manage().window().maximize();	
+	//	driver.manage().window().maximize();	
 
 		return driver;
 	}

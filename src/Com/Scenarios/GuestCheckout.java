@@ -281,7 +281,7 @@ public class GuestCheckout extends TestBase
 
 			steps.ChildWindow(driver);
 
-			driver.manage().window().maximize();
+		//	driver.manage().window().maximize();
 
 			GPCcheck1 = getscreen.capture(driver, "GPCcheck1");
 
