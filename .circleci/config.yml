@@ -8,12 +8,30 @@ jobs:
     docker:
       # specify the version you desire here
       - image: circleci/openjdk:8-jdk
-      - image: circleci/openjdk:8-jdk-node-browsers
       
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/postgres:9.4
+      
+      
+      dependencies:
+  cache_directories:
+    - ~/.meteor
+  override:
+    - meteor || curl https://install.meteor.com | /bin/sh
+    - npm install -g gagarin
+  post:
+    # install chromedriver
+    - wget https://chromedriver.storage.googleapis.com/2.20/chromedriver_linux64.zip
+    - unzip chromedriver_linux64.zip
+    # run chromedriver
+    - ./chromedriver:
+        background: true
+
+test:
+  override:
+    - gagarin --timeout 60000
 
     working_directory: ~/repo
 
