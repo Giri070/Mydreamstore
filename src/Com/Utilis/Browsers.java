@@ -16,7 +16,6 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.internal.ProfilesIni;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
-import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -60,7 +59,7 @@ public class Browsers {
 		{
 			File file = new File("/home/giri/Testing/Documents/Headless Browser/phantomjs-2.1.1-linux-i686/bin/phantomjs");				
 			System.setProperty("phantomjs.binary.path", file.getAbsolutePath());		
-			driver = new PhantomJSDriver();	
+		//	driver = new PhantomJSDriver();	
 		}		
 		else if (browser.equalsIgnoreCase("chromeprofile"))
 		{

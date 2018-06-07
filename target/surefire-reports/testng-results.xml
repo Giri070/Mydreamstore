@@ -2,43 +2,43 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9408" started-at="2018-06-01T10:59:14Z" finished-at="2018-06-01T10:59:23Z">
+  <suite name="Suite" duration-ms="17727" started-at="2018-06-07T05:39:23Z" finished-at="2018-06-07T05:39:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="9408" started-at="2018-06-01T10:59:14Z" finished-at="2018-06-01T10:59:23Z">
-      <class name="Com.Scenarios.GuestCheckout">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Com.Scenarios.GuestCheckout@1a387f]" name="setUp" is-config="true" duration-ms="126" started-at="2018-06-01T16:29:14Z" finished-at="2018-06-01T16:29:14Z">
+    <test name="Test" duration-ms="17727" started-at="2018-06-07T05:39:23Z" finished-at="2018-06-07T05:39:41Z">
+      <class name="Com.Scenarios.Tesett">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Com.Scenarios.Tesett@e07d7f]" name="setUp" is-config="true" duration-ms="104" started-at="2018-06-07T11:09:23Z" finished-at="2018-06-07T11:09:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="before()[pri:0, instance:Com.Scenarios.GuestCheckout@1a387f]" name="before" is-config="true" duration-ms="108" started-at="2018-06-01T16:29:14Z" finished-at="2018-06-01T16:29:14Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:Com.Scenarios.Tesett@e07d7f]" name="before" is-config="true" duration-ms="92" started-at="2018-06-07T11:09:23Z" finished-at="2018-06-07T11:09:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="GuestPrepaidCheckoutFlow()[pri:0, instance:Com.Scenarios.GuestCheckout@1a387f]" name="GuestPrepaidCheckoutFlow" duration-ms="5702" started-at="2018-06-01T16:29:14Z" finished-at="2018-06-01T16:29:20Z">
+        <test-method status="PASS" signature="tert()[pri:0, instance:Com.Scenarios.Tesett@e07d7f]" name="tert" duration-ms="14938" started-at="2018-06-07T11:09:23Z" finished-at="2018-06-07T11:09:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GuestPrepaidCheckoutFlow -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Com.Scenarios.GuestCheckout@1a387f]" name="getResult" is-config="true" duration-ms="2524" started-at="2018-06-01T16:29:20Z" finished-at="2018-06-01T16:29:22Z">
+        </test-method> <!-- tert -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Com.Scenarios.Tesett@e07d7f]" name="getResult" is-config="true" duration-ms="2502" started-at="2018-06-07T11:09:38Z" finished-at="2018-06-07T11:09:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=GuestPrepaidCheckoutFlow status=SUCCESS method=GuestCheckout.GuestPrepaidCheckoutFlow()[pri:0, instance:Com.Scenarios.GuestCheckout@1a387f] output={null}]]]>
+                <![CDATA[[TestResult name=tert status=SUCCESS method=Tesett.tert()[pri:0, instance:Com.Scenarios.Tesett@e07d7f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="after()[pri:0, instance:Com.Scenarios.GuestCheckout@1a387f]" name="after" is-config="true" duration-ms="1064" started-at="2018-06-01T16:29:22Z" finished-at="2018-06-01T16:29:23Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:Com.Scenarios.Tesett@e07d7f]" name="after" is-config="true" duration-ms="186" started-at="2018-06-07T11:09:41Z" finished-at="2018-06-07T11:09:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.Scenarios.GuestCheckout@1a387f]" name="tearDown" is-config="true" duration-ms="257" started-at="2018-06-01T16:29:23Z" finished-at="2018-06-01T16:29:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.Scenarios.Tesett@e07d7f]" name="tearDown" is-config="true" duration-ms="348" started-at="2018-06-07T11:09:41Z" finished-at="2018-06-07T11:09:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Com.Scenarios.GuestCheckout -->
+      </class> <!-- Com.Scenarios.Tesett -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

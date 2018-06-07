@@ -2,8 +2,8 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>seleniumintegration</groupId>
-	<artifactId>seleniumintegration</artifactId>
+	<groupId>MDS</groupId>
+	<artifactId>MDSintegration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
@@ -23,7 +23,7 @@
 				<configuration>
 					<forkCount>0</forkCount>
 					<suiteXmlFiles>
-						<suiteXmlFile>/home/giri/Testing/Git/testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

@@ -23,7 +23,7 @@
 				<configuration>
 					<forkCount>0</forkCount>
 					<suiteXmlFiles>
-						<suiteXmlFile>/home/giri/Testing/seleniumintegration/testng.xml</suiteXmlFile>
+						<suiteXmlFile>/home/giri/Testing/Git/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
@@ -33,7 +33,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-server</artifactId>
-			<version>3.3.1</version>
+			<version>2.53.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.testng</groupId>
