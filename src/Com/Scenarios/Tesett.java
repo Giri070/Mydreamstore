@@ -93,7 +93,7 @@ public class Tesett extends TestBase {
 	{
 		Browsers b = new Browsers();
 
-		this.driver = b.getBrowsers("chrome");		 
+		this.driver = b.getBrowsers("FF");		 
 	}
 
 	@Test
