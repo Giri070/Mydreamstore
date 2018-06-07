@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Come.Scenarios.GuestCheckout">
+        <methods>
+          <include name="before"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="after"/>
+          <include name="tearDown"/>
+          <include name="GuestPrepaidCheckoutFlow"/>
+        </methods>
+      </class> <!-- Come.Scenarios.GuestCheckout -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Com.Scenarios.GuestCheckout">
+        <methods>
+          <include name="getResult"/>
+          <include name="after"/>
+          <include name="GuestCODCheckoutFlow"/>
+          <include name="setUp"/>
+          <include name="before"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Com.Scenarios.GuestCheckout -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
